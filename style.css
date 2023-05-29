@@ -1,0 +1,106 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(40deg, rgba(244, 219, 255, 0.63), rgb(243, 255, 151));
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.header{
+    margin: 0 auto;
+    text-align: center;
+}
+.header h2{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+.about-container{
+    margin-top: 60px;
+    width: 80%;
+    min-height: 50%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+}
+.aboutimg{
+    /* background-color: black; */
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    background-image: url(./aboutTab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutdesc{
+    width: 47%;
+    background-image: linear-gradient(45deg, rgb(197, 243, 253), rgb(236, 211, 244));
+    border-radius: 10px;
+    min-height: 50%;
+
+}
+.deschead{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 15%;
+    align-items: center;
+    background-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btns{
+    /* background-color: gray; */
+    border: none;
+    font-size: larger;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    letter-spacing: 5px;
+}
+.history{
+    border-top-left-radius: 10px;
+    
+}
+.hidden{
+    background-color: transparent;
+    z-index: 2;
+}
+.goals{
+    border-top-right-radius: 10px;
+}
+.history:hover{
+    background-color: rgb(244, 255, 227);
+    color: rgb(91, 211, 244);
+}
+.vision:hover{
+    background-color: rgb(244, 255, 227);
+    color: rgb(91, 211, 244);
+}
+.goals:hover{
+    background-color: rgb(244, 255, 227);
+    color: rgb(91, 211, 244);
+}
+.desc{
+    padding: 20px;
+    margin-top: 10px;
+}
+.desc p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+.desc h3{
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
